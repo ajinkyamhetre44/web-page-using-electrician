@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.border{
+    border: 1px solid black;
+    border-radius:1%;
+}
+.menu{
+    position: sticky;
+    top:98px;
+    margin-top: 150px;
+    margin-left: 20px;
+    width:400px;
+    height: 430px;
+
+}
+.select{
+    width: 100%;
+    height: 6%;
+    text-align: center;
+    font-style: bold;
+    color: rgb(58, 57, 57);
+    margin-top: 8px;
+}
+
+.outer-box{
+    width: 90%;
+    height: 27%;
+    margin-left: 5%;
+    margin-top: 3.2%;
+    display: flex;
+}
+.inner-box{
+    margin-left: 2.5%;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    
+
+}
+.inner-box a{
+    text-decoration: none;
+    color: rgb(82, 81, 81);
+    font-style: bold;
+    font-size: 15px;
+}
+
+.inner-box{
+    color: rgb(64, 65, 65);
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+}
+.inner-box::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #d83065;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    transition: 0.5s;
+}
+
+.inner-box:hover::after{
+    width: 100%;
+}
+
+img{
+    height: 60%;
+    width: 60%;
+    margin-left:0;
+    border-radius: 7px;
+    background-position: center;
+}

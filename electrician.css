@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+
+.border{
+    border: 1px solid black;
+    border-radius:1%;
+}
+
+
+
+.electricion-photo
+{
+    position: absolute;
+    right: 0;
+    top: 130px;
+    width:815px;
+    height: 480px;
+    /* background-color: blueviolet; */
+    z-index: -1;
+    display: flex;
+   }
+
+   .offier{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+   }
+.tool{
+    width: 100%;
+    height: 20%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.tool i{
+    font-size: 30px;
+    margin-left: 70px;
+
+}
+.tool pre {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-left: 2px;
+
+
+}
+
+   .man{
+    width: 45%;
+    height: 100%;
+    background-image: url(man.png);
+    background-size: cover;
+
+   }
